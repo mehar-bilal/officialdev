@@ -1,0 +1,91 @@
+.div1{
+        border-radius: 25px;
+        width: 280px;
+        height: 400px;
+        background: linear-gradient(to right,rgb(210, 117, 117),rgb(125, 214, 125));
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        box-shadow: 8px 4px 10px green;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+        transition: ease 0.3s;
+        transition-delay: 0.2s;
+        /* opacity: 0.5; */
+
+
+}
+.div1 h2{
+    font-weight: bold;
+}
+.div1:hover{
+    transform: scale(1.1);
+}
+.div1>.ptag1{
+    font-size: 20px;
+    font-style: italic;
+   font-weight: bold;
+}
+#main{
+    display: flex;
+}
+.asd{
+    background: linear-gradient(to right,rgb(12, 2, 2),rgb(164, 102, 30));
+}
+#game{
+    border: 5px; 
+    height: 130px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(47, 176, 123),rgb(30, 75, 142));
+
+    border-radius: 20px;
+    /* padding: 1px;  */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#game>.Zone{
+    color: aliceblue;
+    font-size: 100px;
+     box-sizing: border-box;
+     color: black;
+}
+#main button{
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(to right,rgb(210, 117, 117),rgb(125, 214, 125));
+    border: none;
+    transition: ease 0.3s;
+    transition-delay: 0.2s;
+    font-weight: bold;
+    font-size: large;
+}
+#main button:hover{
+    transform: scale(1.1);
+} 
+.div2{
+     border-radius: 25px;
+        width: 400px;
+        height: 500px;
+        background: linear-gradient(to right,rgb(210, 117, 117),rgb(125, 214, 125));
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        box-shadow: 8px 4px 10px green;
+        margin-top: 30px;
+        margin-left: 100px;
+        transition: ease 0.3s;
+        transition-delay: 0.2s;
+}
+#search{
+    border-radius: 25px;
+    font-size: 20px;
+}
+.search{
+    font-size: 25px;
+}

@@ -1,0 +1,76 @@
+p{
+    color: chocolate;;
+    font-size: 20px;
+    font-style: italic;
+}
+.text{
+    color: green;
+}
+#hello{
+    color: red;
+}
+.paragrah>p{
+    color: blue;
+}
+.paragrah>.tamp{
+    color: purple;
+}
+.paragrah>.tamp:hover{
+    color: rgb(57, 206, 95);
+}
+.paragrah{
+    background-color: lightgray;
+    height: 75vh;
+    padding: 30px;
+    border: 5px;
+    border-radius: 50px;
+    width: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-sizing: border-box;
+   transition: transform 0.5s ease;
+    transition-delay: 0.3s;
+}
+.paragrah:hover{
+    transform: scale(1.1);
+}
+.happy>.sad:hover{
+    color: aqua;
+    font-size: 50px;
+
+}
+
+.happy{
+    color: rgb(31, 52, 4);
+    background-color: rgb(209, 184, 159);
+    border: 5px black;
+    padding: 30px;
+    border-radius: 20px;
+     width: 325px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 100px;
+    background-size: cover;
+
+}
+.happy>.sad{
+    font-size: 30px;
+}
+.lol{
+    font-size: 50px;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(236, 236, 236);
+     transition: transform 0.5s ease;
+    transition-delay: 0.3s;
+}
+.lol:hover{
+    color: rgb(168, 23, 23);
+    background-color: rgb(185, 176, 157);
+    transform: scale(1.2);
+}
+

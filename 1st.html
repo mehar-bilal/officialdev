@@ -37,9 +37,66 @@
 </ul>
 </div>
 <ol>
-<i><button><a href="spam.mp4" target="_blank2"><li><i>contact us</i></li></a></button></i>
+<i><button><a href="contact.html" target="_blank2"><li><i>contact us</i></li></a></button></i>
 </ol>
-<video src="spam.mp4" muted controls autoplay></video>
-<a href="contact.html"><audio src="spam.mp4" controls autoplay loop></audio></a>
+<video src="spam.mp4" muted controls ></video>
+<a href="contact.html"><audio src="spam.mp4" controls loop></audio></a>
 </body>
 </html>
+<body>
+    <form action="">
+        <!-- Text input for name -->
+         <label for="Name">Enter Your name:</label>
+         <input type="text" autofocus><br><br><!--autofocus is used for pointing on something-->
+         <!-- To get Email -->
+          <label for="Email">Enter Your Email</label>
+          <input type="email" name="email" required><br><br> <!--Required is use to make something essential -->
+          <!-- For radio button -->
+           <label for="Gender">Select Your Gender:-</label><br><br>
+           <input type="radio" name="Gender" id="male" value="male"> <label for="male">Male</label><br>
+           <input type="radio" name="Gender" id="female" value="female"><label for="female">Female</label><br><br>
+           <!-- For Password -->
+            <label for="Password">Enter Your Password</label>
+            <input type="password" name="Password" id="Password" required><br><br>
+            <!-- Upload File -->
+             <label for="Upload file">Upload file:</label>
+             <input type="file" name="file" id="file" value="file">
+             <br><br>
+             <!-- Username using palce holder --> 
+              <label for="Username">Username</label>
+              <input type="text" id="Username" name="Username" placeholder="Enter Your User name">
+              <br><br>
+              <!-- For subscription of something/To make someone agree upon -->
+               <input type="checkbox" name="agree" id="agree">
+               <label for="agree"> Do You agree with our terms and conditions</label><br><br>
+               <!-- For Numeric values mostly use for age -->
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="12"><br><br>
+                <!-- Dropdown selection -->
+                 <label for="Country">Country</label>
+                 <select name="Country" id="Country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Finland">Finland</option>
+                    <option value="palestine">Palestine</option>
+                </select><br><br>
+                <!-- text for multi line comment/For comments -->
+                 <big><label for="comment">comment</label></big>
+                 <textarea name="comment" id="comment" cols="30" placeholder="Enter Your comment" ></textarea><br><br>
+                 <!-- For phone number -->
+                  <label for="phonenumber">Phone Number</label>
+                  <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Your Contact Number"><br><br>
+                  <!-- For Date of Birth /or for date and time -->
+                   <label for="birth">Enter Your Date Of Birth</label>
+                   <input type="date" id="birth" name="birth--"><br><br>
+                   <!-- For Range -->
+                    <label for="range">What is Your Range</label>
+                    <input type="range" id="range" name="range" ><br><br>
+                    <!-- For URL input -->
+                     <label for="URL">Enetr Your URL</label>
+                     <input type="url" id="URL" name="URL"><br><br><hr>
+                     <!-- For Sumbition -->
+                      <button>Sumbition</button>
+    </form>
+    
+</body>

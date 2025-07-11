@@ -1,0 +1,39 @@
+.main{
+    height: 700px;
+    width: 700px;
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+
+}
+.item1{
+    background-color: rgb(15, 171, 23);
+    /* align-self: flex-start; */
+    /* order: 2; */
+    flex-grow: 2;
+    text-align: center;
+    align-content: center;
+}
+.item2{
+    background-color: rgb(15, 75, 171);
+    /* align-self: flex-end; */
+    /* order: 1; */
+    flex-grow: 2;
+     text-align: center;
+    align-content: center;
+}
+.item3{
+    background-color: rgb(171, 15, 41);
+     text-align: center;
+    align-content: center;
+}
